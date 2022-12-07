@@ -1,1 +1,5 @@
 = DKB Spring-boot example
+
+Sourcekode venligst udlånt af https://spring.io/guides/gs/spring-boot.
+
+(Ikke bare et fork, da jeg kun havde behov for "complete" versionen)
