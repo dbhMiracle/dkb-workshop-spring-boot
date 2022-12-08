@@ -1,4 +1,6 @@
 metadata:
   name: ${project.artifactId}
 data:
-  CONFIG: ConfigMap
+  application.properties: |
+    # spring application properties file
+    config = Spring-boot application.properties
