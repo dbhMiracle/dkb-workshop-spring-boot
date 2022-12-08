@@ -1,0 +1,9 @@
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+        - envFrom:
+            - configMapRef:
+                name: ${project.artifactId}
+      serviceAccount: workshop
